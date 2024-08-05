@@ -9,16 +9,13 @@
 
   </head>
   <body>
-    <main class="container">
-      <h1 id="game-title">Black Jack Game</h1>
-      <p id="display-message-el"></p>
-      <p>Cards : <span id="display-cards-el"></span></p>
-      <p>Sum : <span id="display-sum-el"></span></p>
-      <div class="game-interaction">
-        <button id="btn-start-game" onclick="startGame()">Start Game</button>
-        <button id="btn-new-card" onclick="generateNewCard()">New Card</button>
-      </div>
-    </main>
+    <h1>Blackjack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startGame()">START GAME</button>
+    <button onclick="newCard()">NEW CARD</button>
+    <p id="player-el"></p>
     <script src="index.js"></script>
   </body>
 </html>
